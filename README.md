@@ -6,11 +6,11 @@ For example:
 $nums = [1, 2, 3]
 
 def first_num
-  $nums[0]
+  puts $nums[0]
 end
 
 first_num
-#=> 1
+# 1
 ``` 
 - Although the `$nums` array was defined outside of the scope of the `first_num` method, the program still had access to it because of its *global* scope  
 
